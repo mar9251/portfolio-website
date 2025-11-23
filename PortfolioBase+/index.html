@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Homepage</title>
+        
+        <style>
+        * {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        body {
+            margin: 0;
+            color: black;
+            background-color: #EBEBEB;
+            line-height: 2.0;
+            font-size: 17px;
+        }
+
+        nav {
+            margin: 0;
+            display: flex;
+            background-color: #007319;
+            padding: 1px;
+            font-size: 17px;
+            border: 3px solid #DBDBDB;
+            width: 100%;
+            height: 70px;
+        }
+
+        nav a {
+            margin: 10px;
+            padding: 10px;
+            text-decoration: none;
+            color: white;
+        }
+
+        nav a:hover {
+            background-color: #095209;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h1:hover {
+            color: #1D3882;
+        }
+
+        .content-wrapper {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;      
+            gap: 20px;                    
+            margin: 1rem;
+        }
+
+        .home-content {
+            margin-top: 1rem;
+            margin-left: 43rem;
+            border: 2px solid #007319;
+            height: 600px;
+            width: 520px;
+        }
+
+        .home-content:hover {
+            background-color: #C9C9C9; 
+        }
+
+        .home-content p {
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+        }
+
+        .home-content ul a {
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+        }
+
+        .home-content ul a:hover {
+            text-decoration: underline;
+        }
+
+        .info-box {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            background-color: #C9C9C9;
+            font-weight: bold;
+            margin-left: 18rem;
+            margin-top: 1rem;
+            height: 250px;
+            width: 320px;
+            padding: 10px;
+        }
+
+        .info-box ul {
+            margin: 0;
+            text-align: left;
+            padding-left: 20px;
+            list-style-type: square;
+            width: 100%;
+        }
+
+        .info-box ul a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .info-box ul a:hover {
+            text-decoration: underline;
+            color: #30ACFF;
+        }
+
+        footer {
+            color: white;
+            border: 3px solid #DBDBDB;
+            background-color: #007319;
+            margin-top: 5rem;
+            margin-left: 0;
+            top: 0;
+            text-align: center;
+            width: 100%;
+        }
+        </style>
+
+    </head>
+
+    <body>
+        <nav>
+            <a href="index.html">Homepage</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">Projects</a>
+        </nav>
+
+        <header>
+            <h1>Welcome to PortfolioBase+</h1>
+        </header>
+
+        <div class="content-wrapper">
+            <div class="home-content">
+                <p>Hello there. My name is Muhammad Ammar Rashid. It gives me
+                    great pleasure to welcome you to this website. As the title
+                    explicitly implies, the main focus of this website is to
+                    serve as my portfolio. In this website, you will go through
+                    a brief overview about me and then move on to a list of 
+                    projects that I have worked on in my department, along with 
+                    their description. In addition to the description, the website
+                    will also outline the role I played in each of these projects,
+                    as well as the main objective they were intended to fulfill.
+                </p>
+
+                <p id="invite">So, what are you waiting for? Let's dive in. 
+                    Are you ready? Click either of the following links to begin
+                    exploring:</p>
+                <ul style="list-style-type: square">
+                    <li><a href="about.html">About Me</a></li>
+                    <caption>A page that tells you about me</caption>
+                    <li><a href="projects.html">Projects</a></li>
+                    <caption>The overview of my projects</caption>
+                </ul>
+            </div>
+
+            <div class="info-box">
+                <p>To get in touch with me, click/use the following:</p>
+                <ul style="list-style-type: square">
+                    <li>Phone Number: +971 50 714 9224</li>
+                    <li><a href="https://www.linkedin.com/in/muhammad-ammar-rashid-330740239/">My LinkedIn Profile</a></li>
+                    <li>Personal Email: jedi17132@gmail.com</li>
+                    <li>Work Email: mar9251@rit.edu</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; All rights reserved.</p>
+        </footer>
+    </body>
+</html>
