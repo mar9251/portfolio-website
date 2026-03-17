@@ -6,6 +6,7 @@
         <title>Homepage</title>
         
         <style>
+            /* Default desktop screen layout */
         * {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
@@ -126,6 +127,7 @@
             width: 100%;
         }
 
+        /* Media queries for Mobile phones */
         @media screen and (min-width: 319px) and (max-width: 480px) {
             nav {
                 display: flex;
@@ -139,16 +141,33 @@
                 flex-direction: column;
             }
 
+
             .home-content {
                 margin-left: 70px;
                 width: 600px;
                 height: auto;
             }
+
         }
 
+        /* Media queries for iPads and tablets */
         @media screen and (min-width: 481px) and (max-width: 1200px) {}
 
-        @media screen and (min-width: 1201px) and (max-width: 1600px) {}
+        /* Media queries for laptops */
+        @media screen and (min-width: 1201px) and (max-width: 1600px) {
+            .home-content {
+                margin-left: 465px;
+                width: 550px;
+                height: auto;
+            }
+
+            .info-box {
+                margin-left: 90px;
+            }
+
+
+        }
+
         </style>
 
     </head>
